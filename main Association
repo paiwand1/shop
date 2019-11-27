@@ -1,0 +1,11 @@
+package sa;
+
+public class Sa {
+
+    public static void main(String[] args) {
+itemID id = new itemID(123456, "31-12-2020");
+item first_item = new item("laptop", id);
+System.out.println(first_item.item_name + "\t"+first_item.getID()+"       "+first_item.get_relace_date());
+    }
+
+}
