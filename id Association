@@ -1,0 +1,12 @@
+package sa;
+
+public class itemID {
+
+    int id;
+    String relace_date;
+
+    public itemID(int id, String relace_date) {
+        this.id = id;
+        this.relace_date = relace_date;
+    }
+}
