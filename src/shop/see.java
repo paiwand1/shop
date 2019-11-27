@@ -3,7 +3,8 @@ package shop;
 import java.util.Scanner;
 
 public class see extends insert  implements iteme{
-
+//seeing the corent items
+    
     public  void printing() {
         Scanner d=new Scanner (System.in);
         if ( com ==null) {
